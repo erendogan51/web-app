@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+#pokemonName {
+    padding: 5px;
+}
+
+#getPokemonBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#getPokemonBtn:hover {
+    background-color: #45a049;
+}
+
+.pokemon-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#moves-table {
+    margin-top: 20px;
+}
+
+#moves-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#moves-table table, #moves-table th, #moves-table td {
+    border: 1px solid #ddd;
+}
+
+#moves-table th, #moves-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+#moves-table th {
+    background-color: #f2f2f2;
+}
+
+#details-table {
+    margin-top: 20px;
+}
+
+#details-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#details-table table, #details-table th, #details-table td {
+    border: 1px solid #ddd;
+}
+
+#details-table th, #details-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+#details-table th {
+    background-color: #f2f2f2;
+}

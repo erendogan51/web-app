@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Pokémon Info</title>
+</head>
+<body>
+<h1>Pokémon Info</h1>
+<label for="pokemonInput"></label>
+<input type="text" id="pokemonInput" placeholder="E.g., Pikachu" pattern="^[A-Za-z0-9]+$">
+<span class="error" id="inputError"></span>
+<button id="getPokemonBtn">Get Pokemon</button>
+<div id="pokemonInfo" class="pokemon-info"></div>
+<script type="module" src="./scripts/script.ts"></script>
+</body>
+</html>
